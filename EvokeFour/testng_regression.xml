@@ -1,0 +1,84 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="EvokeApi  Suite" >
+
+ <!--  <listeners>
+  <listener class-name="com.slokam.moodle.commons.listiners.ExtentReportListiner" />
+ </listeners> -->
+ 
+ 
+   <test name="RunTests">
+   
+   
+   <!-- com.ecoke.voteridsources.allcases -->  
+   
+    <!--packages>
+    
+    <package name="com.slokam.evoke.testsuite.voterid.cases"></package>
+    
+    </packages-->
+    
+   <!--  <packages>
+    
+    <package name="com.drivinglinces.indival"></package>
+    
+    </packages>
+     -->
+    
+    <classes>
+    <class name="com.electricity.address.ElectricityChhattisgarhAll">
+    
+    <methods>
+    
+    <include name="ElectricityKarnataka"></include>
+    
+    </methods>
+    
+    </class>
+    
+    
+    
+    </classes> 
+    
+    
+    
+    <!-- com.ecoke.electricityidsources.allcases -->  
+    
+  <!--   <packages>
+    
+      <package name="com.electricity.verification"></package>
+      
+      
+      <package name="com.slokam.shopact.verification"></package>
+      <package name="com.slokam.evoke.testsuite.voterid.cases"></package>
+      <package name="com.slokam.evoke.testsuite.cases.propertyTaxs"></package>
+      <package name="com.slokam.evoke.testsuite.cbil"></package>
+      
+    </packages>
+     -->
+    
+    
+   <!-- com.ecoke.shopactsourcesidsources.allcases -->  
+   <!--packages>
+   
+   <package name="com.slokam.shopact.verification"></package>
+   
+   </packages--> 
+    
+    <!-- com.ecoke.somecases.allcases -->  
+    
+    <!--packages>
+     <package name="com.slokam.evoke.testsuite.cases"></package>
+     
+     </packages-->
+    
+     <!-- com.ecoke.formand cbil.allcases -->  
+    <!--packages>
+     <package name="com.slokam.evoke.testsuite.cbil"></package>
+     
+     </packages--> 
+    
+    </test>    
+    
+
+</suite>
